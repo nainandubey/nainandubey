@@ -1,0 +1,82 @@
+*{
+  margin: 0;
+  padding: 0;
+
+}
+body, html {
+  height: 100%;
+}
+body{
+      background-image: url("https://media1.giphy.com/media/S60CrN9iMxFlyp7uM8/giphy.gif");
+  background-repeat: no-repeat;
+  background-size:cover;
+
+
+}
+.header{
+  margin-top: 25px;
+}
+span::before {
+    content: "KIKI";
+    animation: animate infinite 4s;
+    padding-left: 10px;
+    font-weight: bolder;
+}
+@keyframes animate {
+
+    0% {
+        content: "KIKI";
+        color: #54e346;
+    }
+
+    50% {
+        content: "THE";
+        color: #1eae98;
+    }
+
+    75% {
+        content: "CHATBOT";
+        color: #fdfaf6;
+    }
+}
+h3{
+  font-family: 'Noto Serif', serif;
+  text-align: center;
+  color: #1eae98;
+
+  padding: 20px;
+  margin-top: 0px;
+  text-transform: capitalize;
+}
+.hh1{
+
+  text-align: center;
+  padding: 10px;
+}
+span{
+  margin-left: 20px;
+}
+.btn a{
+  color: #1eae98;
+  text-decoration: none;
+  font-style: normal;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+.btn a:hover{
+  color: white;
+}
+.buttoncontainer{
+  text-align: center;
+  position: absolute;
+  bottom: 55%;
+  left: 45%;
+  padding-top: 10px;
+}
+
+
+.movetext {animation: moving 5s infinite;}
+
+@keyframes moving {
+    from {left: 0px;}
+    to {right: 200px;}
